@@ -1,0 +1,105 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.main {
+    display: flex;
+    width: 40%;
+    height: 450px;
+    margin: 7% auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.white {
+    width: 50%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;  
+    justify-content: flex-start;  
+    align-items:flex-start;
+    padding-left: 27px;
+    box-sizing: border-box;
+    
+}
+
+.white h2 {
+    margin-top: 30px;
+    color:hsl(227, 9%, 57%);
+    font-family: "Outfit", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing:5px;
+    
+}
+
+.white h1 {
+    font-family: "Fraunces", serif;
+    line-height: 31px;
+    margin-bottom: 5px;
+}
+
+.white p {
+    font-family: "Outfit", sans-serif;
+    color:hsl(228, 12%, 48%);
+    line-height: 25px;
+
+}
+
+.white h4 {
+    font-family: "Fraunces", serif;
+    color: hsl(158, 36%, 37%) ;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-bottom: 23px;
+
+}
+
+.white h4 span {
+    font-family: "Fraunces", serif;
+    color:hsl(228, 2%, 57%);
+    text-decoration: line-through;
+    font-size: 12px;
+    padding-left: 18px;
+    position: relative;
+    top: -6px   
+}
+
+
+.white a {
+    padding: 12px;
+    width:80%;
+    background-color:hsl(158, 36%, 37%) ;
+    font-weight: 700;
+    color:rgb(222, 221, 221);
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    border-radius: 10px;
+    display: inline-flex;
+    gap: 10px; 
+    align-items: center;
+    justify-content: center;
+    word-spacing: 2px;
+
+}
+
+.white a:hover {
+    background-color:hsl(158, 42%, 18%) ;
+    cursor: pointer;
+}
+
+.white a img {
+ 
+    height: 15px;
+}
+
+.pic {
+    width: 50%;
+    background-image: url('images/image-product-desktop.jpg');
+    height: 100%;
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;
+
+}
